@@ -1,6 +1,6 @@
 Cisco ISE sessions zabbix monitoring template
 
-That template can monitor only two parametrs - count of active endpoint sessions and number of authz in last 15 minutes (graph and alarm triggers added too).
+That template can monitor only two parametrs - count of active endpoint sessions and number of authz in last 15 minutes (graph and alarm triggers added too). It work over REST api of Cisco ISE.
 
 Installation:
 
