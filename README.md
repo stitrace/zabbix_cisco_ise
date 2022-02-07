@@ -6,6 +6,8 @@ NOTE:
 - cisco_ise_template-v2.4.xml - to Zabbix version <= 2.4
 - cisco_ise_template-v3.0.xml - for Zabbix version >= 3.0
 
+Also you need define {$IPADDR},{$USER} and {$PW} to your MACRO. It's credentials for API of your Cisco ISE installation instance.
+
 Installation:
 
 1) Move ise.py into zabbix external scripts directory. Chown it to zabbix user/group and chmod 711 on it. 
