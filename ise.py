@@ -43,7 +43,7 @@ def get_active(node_url):
         print(exc)
         exit(1)
 
-if not len(sys.argv) == 5:
+if not len(sys.argv) < 5:
     print('ZBX_NOTSUPPORTED')
     exit(1)
 host = sys.argv[1]
